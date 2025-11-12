@@ -39,6 +39,14 @@ git commit -m "Merge: Resolver conflicto entre análisis de ventas y datos"
 la solución es entrar a la readme ver lo que esta en conflicto y corregir eliminado la etiquetas de señalización del error también.
 se corrige eliminando un texto de uno de ellos. también se podrían dejar ambos textos. después ya se puede hacer el merge.
 
+segunda parte actividad :
+
+Crear Pull Request:
+
+Push ambas ramas a GitHub
+Crear PR desde feature-analisis-ventas hacia main
+Agregar descripción y solicitar revisión
+
 
 
 
