@@ -1,1 +1,31 @@
-"# a¤adiendo un texto.txt" 
+Qué es un Pull Request (PR)
+
+Un PR es una solicitud para que los cambios de una rama (por ejemplo feature-analisis-ventas) sean revisados y fusionados en otra rama (por ejemplo main).
+
+Es común en trabajo colaborativo, porque permite revisar los cambios antes de integrarlos.
+
+GitHub te permite hacer esto directamente desde la interfaz web.
+
+Cómo se relaciona con lo que hiciste
+
+Localmente ya hiciste un merge con conflicto y lo resolviste.
+
+Si quisieras usar el flujo típico de GitHub, normalmente se hace así:
+
+Haces tus cambios en feature-analisis-ventas
+
+Haces git push origin feature-analisis-ventas
+
+Vas a GitHub y creas un Pull Request hacia main
+
+La PR puede ser revisada y luego mergeada en GitHub
+
+Esto es útil si quieres que otros revisen tu código, o si quieres seguir un flujo de trabajo profesional.
+
+Diferencia con lo que hiciste localmente
+
+Lo que hiciste localmente: merge directo con resolución de conflictos en tu máquina.
+
+Con Pull Request: no haces merge directo todavía; primero subes la rama al remoto y GitHub gestiona la fusión.
+
+Tip: Aunque ya resolviste el merge local, puedes igualmente subir feature-analisis-ventas al remoto y crear un PR, es una práctica común para simular revisiones.
