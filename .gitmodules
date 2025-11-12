@@ -1,0 +1,6 @@
+[submodule "01-mi-primer-repo"]
+	path = 01-mi-primer-repo
+	url = git@github.com:Leandroaraya/git-basics-leandro.git
+[submodule "02-repo-ssh-conetion-local-remote"]
+	path = 02-repo-ssh-conetion-local-remote
+	url = git@github.com:Leandroaraya/information-ssh-Leandroaraya.git
