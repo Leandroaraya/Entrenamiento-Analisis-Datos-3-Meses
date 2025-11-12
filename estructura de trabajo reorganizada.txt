@@ -1,0 +1,97 @@
+Entrenamiento-Analisis-Datos-3-Meses/   ← Repo contenedor (local y en GitHub)
+│
+├── README.md                           ← Descripción del programa
+├── .git/                               ← Git interno del contenedor
+├── .gitmodules                         ← Archivo que registra submodules
+├── 01-mi-primer-repo/                  ← Submodule 1
+│   ├── .git/                           ← Git interno del submodule
+│   ├── README.md
+│   └── otros archivos de la actividad
+└── 02-repo-ssh-conetion-local-remote/  ← Submodule 2
+    ├── .git/                           ← Git interno del submodule
+    ├── README.md
+    └── otros archivos de la actividad
+
+GitHub:
+- Repo contenedor: `nombre-repo-contenedor`
+  - Contiene punteros a los commits de los submodules
+- Submodule 1: `git-basics-leandro` (independiente)
+- Submodule 2: `information-ssh-Leandroaraya` (independiente)
+
+
+Al inicio tenia dos repos independientes 01-mi-primer-repo y 02-repo-ssh-conetion-local-remote donde se reestructuro a un repo general centralizado Entrenamiento-Analisis-Datos-3-Meses.
+
+# Resumen completo del flujo de trabajo con repositorios y submodules
+
+Se creó un repositorio contenedor llamado `Entrenamiento-Analisis-Datos-3-Meses` para centralizar todas las actividades del programa de entrenamiento de 3 meses en análisis de datos. Dentro de este contenedor se trabajaron dos repositorios independientes: `01-mi-primer-repo` y `02-repo-ssh-conetion-local-remote`.
+
+1. **Inicialización del repo contenedor**  
+   - Crear carpeta general y entrar en ella:
+     ```bash
+     cd "Entrenamiento-Analisis-Datos-3-Meses"
+     git init
+     ```
+   - Crear `README.md` y hacer commit:
+     ```bash
+     git add README.md
+     git commit -m "Agregar README del programa de entrenamiento"
+     ```
+
+2. **Repositorios independientes de actividades**  
+   - Cada actividad se manejó como repo independiente con su propio `git init`, commits y push a GitHub.
+
+3. **Configuración de SSH (opcional)**  
+   - Generar clave SSH y agregarla al agente:
+     ```bash
+     ssh-keygen -t ed25519 -C "tu.email@ejemplo.com"
+     eval "$(ssh-agent -s)"
+     ssh-add ~/.ssh/id_ed25519
+     ```
+   - Copiar clave pública a GitHub y probar conexión:
+     ```bash
+     ssh -T git@github.com
+     ```
+
+4. **Preparación para submodules**  
+   - Mover repositorios locales a backup para limpiar el contenedor:
+aquí se busco mover los repos independientes a una carpeta para que no interfirieran con la extracción del los repos en GitHub que se iban a poner porque tenían el mismo nombre.... este paso falta entender bien (todo el paso 4 y 5)
+     ```cmd
+     mkdir backup-actividades
+     move "01-mi-primer-repo" "backup-actividades\01-mi-primer-repo"
+     move "02-repo-ssh-conetion-local-remote" "backup-actividades\02-repo-ssh-conetion-local-remote"
+     ```
+   - Limpiar rastro previo en el índice:
+     ```bash
+     git rm --cached 01-mi-primer-repo
+     git rm --cached 02-repo-ssh-conetion-local-remote
+     ```
+
+5. **Agregar submodules al repo contenedor**  
+   ```bash
+   git submodule add git@github.com:Leandroaraya/git-basics-leandro.git 01-mi-primer-repo
+   git submodule add git@github.com:Leandroaraya/information-ssh-Leandroaraya.git 02-repo-ssh-conetion-local-remote
+   git add .
+   git commit -m "Agregar actividades como submodules"
+
+6. git remote add origin git@github.com:Leandroaraya/nombre-repo-contenedor.git
+   git push -u origin main
+
+
+
+Para entender bien:
+
+
+repos (01-mi-primer-repo) y (02-repo-ssh-... ) estan enlazados a los repos originales del github (git-basics-leandro y information-ssh-Leandroaraya ) pero de igual forma los repos de la carpeta backup estan enlazados a los mismos de github. 
+
+El repo contenedor solo registra referencias a commits de los submodules y deben hacerse .
+
+No necesita los archivos internos del submodule para funcionar; solo apunta al commit correcto.
+
+Así, aunque tengas varios submodules y varios backups, el contenedor mantiene un “mapa” de en qué commit está cada submodule.
+Quién es quién
+
+Submodule (01-mi-primer-repo dentro del contenedor) → es una persona activa: hace cambios, los guarda (commit) y los sube a GitHub (push).
+
+Backup (backup-actividades/01-mi-primer-repo) → es otra persona: tiene la misma carpeta, pero no sabe nada de lo que hizo la primera persona, hasta que decide actualizarse (git pull).
+
+GitHub (git-basics-leandro) → es la “oficina central”: recibe los cambios de todos y permite que otros los vean.
