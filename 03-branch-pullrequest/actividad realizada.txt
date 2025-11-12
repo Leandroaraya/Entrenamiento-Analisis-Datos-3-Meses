@@ -1,0 +1,75 @@
+"comandos de la actividad" 
+Crear y trabajar con ramas:
+# Crear rama para feature
+git checkout -b feature-analisis-ventas
+otra forma del esa ultima linea
+git branch feature1    # crea la rama
+git checkout feature1  # cambia a esa rama
+
+
+# Modificar archivo
+echo "# Análisis de ventas mejorado" >> README.md
+git add README.md
+git commit -m "feat: Agregar sección de análisis de ventas"
+
+# Cambiar a rama main y crear conflicto
+git checkout main
+echo "# Análisis de datos principal" >> README.md
+git add README.md
+git commit -m "feat: Agregar análisis de datos principal"
+
+
+Crear conflicto y resolverlo:
+
+# Intentar merge (creará conflicto)
+git merge feature-analisis-ventas
+
+# Ver archivos conflictivos
+git status
+
+# Editar archivo para resolver conflicto
+# (eliminar marcadores de conflicto y elegir versión correcta)
+
+# Completar merge
+git add README.md
+git commit -m "Merge: Resolver conflicto entre análisis de ventas y datos"
+
+
+(la activida busca crear un readme en main y en otra rama pero con diferentes textos. para hacer merge y que entre en conflicto)
+la solución es entrar a la readme ver lo que esta en conflicto y corregir eliminado la etiquetas de señalización del error también.
+se corrige eliminando un texto de uno de ellos. también se podrían dejar ambos textos. después ya se puede hacer el merge.
+
+
+
+
+1️⃣ Qué es un Pull Request (PR)
+
+Un PR es una solicitud para que los cambios de una rama (por ejemplo feature-analisis-ventas) sean revisados y fusionados en otra rama (por ejemplo main).
+
+Es común en trabajo colaborativo, porque permite revisar los cambios antes de integrarlos.
+
+GitHub te permite hacer esto directamente desde la interfaz web.
+
+2️⃣ Cómo se relaciona con lo que hiciste
+
+Localmente ya hiciste un merge con conflicto y lo resolviste.
+
+Si quisieras usar el flujo típico de GitHub, normalmente se hace así:
+
+Haces tus cambios en feature-analisis-ventas
+
+Haces git push origin feature-analisis-ventas
+
+Vas a GitHub y creas un Pull Request hacia main
+
+La PR puede ser revisada y luego mergeada en GitHub
+
+Esto es útil si quieres que otros revisen tu código, o si quieres seguir un flujo de trabajo profesional.
+
+3️⃣ Diferencia con lo que hiciste localmente
+
+Lo que hiciste localmente: merge directo con resolución de conflictos en tu máquina.
+
+Con Pull Request: no haces merge directo todavía; primero subes la rama al remoto y GitHub gestiona la fusión.
+
+💡 Tip: Aunque ya resolviste el merge local, puedes igualmente subir feature-analisis-ventas al remoto y crear un PR, es una práctica común para simular revisiones.
