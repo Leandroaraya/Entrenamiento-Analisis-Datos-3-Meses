@@ -1,0 +1,31 @@
+Crear feature branch descriptiva:
+hacemos una rama nueva:						git checkout -b feature/dashboard-ventas-v1
+creamos carpeta de la actividad:			        mkdir 04-GitHubFlow-Pullrequest
+vamos a la carpeta:					        cd 04-GitHubFlow-Pullrequest
+
+Hacer cambios con commits descriptivos:
+creamos un archivo .py :				        echo "import matplotlib.pyplot as plt" >> analisis_ventas.py
+agregamos add para que sea propio de la rama nueva              git add analisis_ventas.py
+hacemos commit                                                  git commit -m "feat: Agregar visualización básica de ventas
+
+Push y crear Pull Request:
+hacer push para mandarlo a github pero como una rama al repo remoto   git push -u origin feature/dashboard-ventas-v1
+
+
+despues lo que sigue es ir al github y hacer el pullrequest
+
+esto consiste en que tenemos una rama nueva por el comando anterior del push. y el pullrequest se encarga de verificar si esta todo ok o hay algun conflicto en los cambios.
+alli realizamos o apretamos “Compare & pull request”
+
+añadimos titulo y una descripcion con valor
+
+titulo: "feat: Dashboard básico de análisis de ventas"
+
+comentario:"Se agregó un dashboard inicial con visualización de métricas de ventas (totales por mes, productos más vendidos y comparación de periodos). Este cambio permite tener una vista general de rendimiento comercial y servirá como base para futuros módulos de análisis detallado."
+
+“Merge pull request”
+“Confirm merge”.
+
+despues “Create pull request”.
+
+luego podemos comentar y eliminar alli mismo la rama “Delete branch”.
