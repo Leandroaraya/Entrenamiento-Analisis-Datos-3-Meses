@@ -1,0 +1,83 @@
+1.- ingresar SQLite: https://www.sqlite.org/download.html
+2.- descargar sqlite-tools-win-x64-3510000.zip (6.14 MiB) Command-line tools for Windows x64, including (1) the command-line shell, (2) sqldiff.exe, (3) sqlite3_analyzer.exe, and (4) sqlite3_rsync.exe.
+
+allí se obtiene un .zip donde hay se crea una carpeta C:\sqlite\ y se agregan los archivos del .zip ya descomprimidos
+3.- en cmd usar: 
+
+C:\sqlite\sqlite3.exe
+
+.open tienda_ejemplo.db
+
+( si se uso un condigo anterior y no pasa nada usar: ";" porque es el final de linea que esperaba)
+
+sqlite> .databases   ( para mostrar que esta funcionando la base de datos)
+(mostrara:main: C:\Programa Analisis de Datos Kranio Talentops\Entrenamiento-Analisis-Datos-3-Meses\11\tienda_ejemplo.db r/w)
+
+CREATE TABLE clientes (id INTEGER PRIMARY KEY, nombre VARCHAR(100) NOT NULL, email VARCHAR(100) UNIQUE, fecha_registro DATE NOT NULL);
+sqlite> .tables
+clientes
+sqlite>
+
+CREATE TABLE productos (id INTEGER PRIMARY KEY, nombre VARCHAR(100) NOT NULL, precio DECIMAL(10,2) NOT NULL, stock INTEGER DEFAULT 0, categoria VARCHAR(50));
+
+
+CREATE TABLE pedidos (id INTEGER PRIMARY KEY, cliente_id INTEGER, fecha_pedido DATE NOT NULL, total DECIMAL(10,2), FOREIGN KEY(cliente_id) REFERENCES clientes(id));
+
+sqlite> .tables
+clientes   pedidos    productos
+sqlite>
+
+
+sqlite> .schema clientes   (es para mostrar la estructura de lo que tenemos)
+CREATE TABLE clientes (id INTEGER PRIMARY KEY, nombre VARCHAR(100) NOT NULL, email VARCHAR(100) UNIQUE, fecha_registro DATE NOT NULL);
+
+sqlite> PRAGMA table_info(clientes);
+0|id|INTEGER|0||1
+1|nombre|VARCHAR(100)|1||0
+2|email|VARCHAR(100)|0||0
+3|fecha_registro|DATE|1||0
+(bloque not null: si es 1 indica tiene que ser no nulo
+| Nº | Columna        | Tipo         | NOT NULL | Valor por defecto | PK |
+| -- | -------------- | ------------ | -------- | ----------------- | -- |
+| 0  | id             | INTEGER      | NO (0)   | —                 | 1  |
+| 1  | nombre         | VARCHAR(100) | SÍ (1)   | —                 | 0  |
+| 2  | email          | VARCHAR(100) | NO (0)   | —                 | 0  |
+| 3  | fecha_registro | DATE         | SÍ (1)   | —                 | 0  |
+
+PK = Primary Key
+
+NOT NULL = 1 significa obligatorio -> tiene que tener algo escrito
+
+para ver la llave forania:
+
+sqlite> .schema pedidos
+CREATE TABLE pedidos (id INTEGER PRIMARY KEY, cliente_id INTEGER, fecha_pedido DATE NOT NULL, total DECIMAL(10,2), FOREIGN KEY(cliente_id) REFERENCES clientes(id));
+
+Observa cómo las constraints mantienen integridad:
+
+INSERT INTO clientes (nombre, email, fecha_registro)
+VALUES (NULL, 'a@b.com', '2025-01-01'); (aquí se agrega un nombre null y dará error)
+
+INSERT INTO clientes VALUES (1, 'Luis', 'luis@mail.com', '2025-01-01');
+INSERT INTO clientes VALUES (2, 'Pedro', 'luis@mail.com', '2025-01-05'); aquí aparecerá error porque email es unique
+
+
+aquí se observa que al darle valores a 'productos' no se permite valores duplicados a id por ser primary key y no acepta duplicados
+INSERT INTO productos (id, nombre, precio) VALUES (1, 'Laptop', 1000);
+
+
+INSERT INTO productos (id, nombre, precio) VALUES (1, 'Mouse', 10);
+
+
+
+Tu tabla pedidos tiene esta FK:
+FOREIGN KEY (cliente_id) REFERENCES clientes(id)
+Si intentas crear un pedido para un cliente que NO existe:
+INSERT INTO pedidos (id, cliente_id, fecha_pedido, total) VALUES (1, 999, '2025-01-10', 50);
+
+dira : FOREIGN KEY constraint failed ósea error.No puedes registrar pedidos para un cliente inexistente.
+aunque al inicio se añadió, sucede que SQLite no tiene activada la llave forania. entonces hay que activarla
+
+PRAGMA foreign_keys = ON;
+
+INSERT INTO pedidos (id, cliente_id, fecha_pedido, total) VALUES (1, 998, '2025-01-10', 50); ahora ya lanza error
