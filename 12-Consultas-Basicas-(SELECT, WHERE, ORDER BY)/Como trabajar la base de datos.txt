@@ -1,0 +1,101 @@
+cmd: se puede trabajar la base de datos pero todo tiene que ser ejecutado en una sola linea:
+CREATE TABLE productos (id INTEGER PRIMARY KEY, nombre TEXT NOT NULL, precio REAL NOT NULL, categoria TEXT, stock INTEGER DEFAULT 0);
+
+VS Code: aquí hay que instalar las extensiones. sqltools y SQLite
+-en la carpeta de trabajo abrir vs code con code .
+-f1 + SQLite: Open DataBase
+-  aparece SQLITE EXPLORER y en la base de datos tienda_ejemplo.db click derecho para new query
+- poner códigos y actualizar tabla para ver resultados.
+
+DROP TABLE productos; para eliminar una tabla
+
+crear tabla:
+CREATE TABLE productos (
+    id INTEGER PRIMARY KEY,
+    nombre TEXT NOT NULL,
+    precio REAL NOT NULL,
+    categoria TEXT,
+    stock INTEGER DEFAULT 0
+);
+
+darle valores a la tabla:
+INSERT INTO productos VALUES
+(1, 'Laptop Dell', 1200.00, 'Electrónica', 15),
+(2, 'Mouse Logitech', 25.50, 'Accesorios', 50),
+(3, 'Teclado Mecánico', 89.99, 'Accesorios', 30),
+(4, 'Monitor 24"', 199.99, 'Electrónica', 12),
+(5, 'Audífonos Sony', 149.50, 'Audio', 25);
+
+Consultas básicas:
+-- Seleccionar productos con precio > 100
+SELECT nombre, precio FROM productos WHERE precio > 100;
+al hacer esto se abre la ventana SQLite y muestra resultados
+
+nos cambiamos a SQLiteStudio donde hay que instalarlo y nos permite visualizar todo de mejor forma.
+
+otra opción es trabajar en el archivo sqlite3.exe que se trabaja similar al cmd
+
+
+Productos con stock mayor a 20
+
+SELECT nombre, stock
+FROM productos
+WHERE stock > 20;
+
+
+Productos que NO sean de la categoría 'Accesorios'
+SELECT nombre, categoria
+FROM productos
+WHERE categoria <> 'Accesorios';
+
+Productos con precio entre 50 y 200
+SELECT nombre, precio
+FROM productos
+WHERE precio >= 50 AND precio <= 200;
+
+
+Ordenar por categoría ascendente
+SELECT nombre, categoria, precio
+FROM productos
+ORDER BY categoria ASC;
+
+Ordenar por stock de mayor a menor
+SELECT nombre, stock
+FROM productos
+ORDER BY stock DESC;
+
+Ordenar primero por categoría y dentro de cada categoría por precio ascendente
+SELECT nombre, categoria, precio
+FROM productos
+ORDER BY categoria ASC, precio ASC;
+
+
+Productos 'electrónicos' y precio > 100
+
+SELECT nombre, precio, categoria
+FROM productos
+WHERE categoria = 'Electrónica'
+  AND precio > 100;
+
+Productos con stock < 20 o precio > 500
+SELECT nombre, stock, precio
+FROM productos
+WHERE stock < 20
+   OR precio > 500;
+
+
+Productos de categoría ‘Audio’ o que tengan una “a” en el nombre
+SELECT nombre, categoria
+FROM productos
+WHERE categoria = 'Audio'
+   OR nombre LIKE '%a%';
+
+
+Electrónica y (precio < 200 o stock > 10)
+SELECT nombre, precio, stock
+FROM productos
+WHERE categoria = 'Electrónica'
+  AND (precio < 200 OR stock > 10);
+
+
+
