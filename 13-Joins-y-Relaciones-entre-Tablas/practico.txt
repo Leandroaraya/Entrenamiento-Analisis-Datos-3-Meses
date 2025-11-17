@@ -1,0 +1,96 @@
+**Ejercicio**: Consultas con joins en esquema de ventas
+
+Crear esquema relacional completo:
+
+-- Tabla de clientes
+CREATE TABLE clientes (
+    id INTEGER PRIMARY KEY,
+    nombre TEXT NOT NULL,
+    email TEXT UNIQUE,
+    ciudad TEXT
+);
+
+-- Tabla de pedidos
+CREATE TABLE pedidos (
+    id INTEGER PRIMARY KEY,
+    cliente_id INTEGER,
+    fecha_pedido DATE NOT NULL,
+    total REAL,
+    FOREIGN KEY (cliente_id) REFERENCES clientes(id)
+);
+
+-- Insertar datos de ejemplo
+INSERT INTO clientes VALUES
+(1, 'Ana García', 'ana@email.com', 'Madrid'),
+(2, 'Carlos López', 'carlos@email.com', 'Barcelona'),
+(3, 'María Rodríguez', 'maria@email.com', 'Madrid');
+
+INSERT INTO pedidos VALUES
+(1, 1, '2024-01-15', 150.50),
+(2, 1, '2024-01-20', 89.99),
+(3, 2, '2024-01-18', 299.99);
+
+
+
+
+Consultas con diferentes tipos de joins:
+
+-- INNER JOIN: Solo clientes con pedidos
+SELECT c.nombre, p.fecha_pedido, p.total
+FROM clientes c
+INNER JOIN pedidos p ON c.id = p.cliente_id;
+
+-- LEFT JOIN: Todos los clientes, con pedidos si existen
+SELECT c.nombre, COUNT(p.id) as num_pedidos, SUM(p.total) as total_compras
+FROM clientes c
+LEFT JOIN pedidos p ON c.id = p.cliente_id
+GROUP BY c.id, c.nombre;
+
+-- Clientes de Madrid con sus pedidos
+SELECT c.nombre, c.ciudad, p.fecha_pedido, p.total
+FROM clientes c
+LEFT JOIN pedidos p ON c.id = p.cliente_id
+WHERE c.ciudad = 'Madrid';
+
+
+
+
+Analizar resultados:
+
+Compara cuántas filas devuelve cada tipo de join
+Observa cómo NULL aparece en LEFT JOIN
+Verifica integridad referencial
+Verificación: Confirma que cada join produce los resultados esperados según la teoría aprendida.
+
+Requerimientos:
+SQLite con esquema relacional creado (del día anterior)
+Datos de ejemplo insertados en tablas relacionadas
+Comprensión de claves primarias y foráneas
+
+-----------------------------------------------------------------------------------------------------------------
+realizado:
+en la carpeta de trabajo creamos un archivo tienda.db y abrimos cmd
+luego code .  para abrir la base de datos en vscode
+en VScode apretamos F1, luego buscamos SQLite: Open DataBase y tenemos que elegir 'tienda.db' y se activara SQLite explorer en la barra izquierda lado inferior
+en ese explorador encontraremos tienda.db y click derecho e ir a la new query
+allí creamos la tabla y la rellenamos con datos, luego de eso recién puedo visualizar la tabla.
+query para crear tabla click derecho y run query, query para llenar la tabla click derecho y run, select * FROM clientes; y ya visualizamos.
+
+-- INNER JOIN: Solo clientes con pedidos
+SELECT c.nombre, p.fecha_pedido, p.total
+FROM clientes c
+INNER JOIN pedidos p ON c.id = p.cliente_id;
+
+
+-- LEFT JOIN: Todos los clientes, con pedidos si existen
+SELECT c.nombre, COUNT(p.id) as num_pedidos, SUM(p.total) as total_compras
+FROM clientes c
+LEFT JOIN pedidos p ON c.id = p.cliente_id
+GROUP BY c.id, c.nombre;
+
+
+Analizar resultados:
+
+Compara cuántas filas devuelve cada tipo de join: cada join devuelve 3 filas
+
+Observa cómo NULL aparece en LEFT JOIN: aparecen para completar los datos faltantes.
