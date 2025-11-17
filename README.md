@@ -9,5 +9,5 @@ Este repositorio documenta mi avance en el programa **Entrenamiento de Análisis
 - **04-GitHubFlow-Pullrequest:** se ven pullrequest y merge de manera local y github, ademas de hacer pull para mantener igualdad en el repositorio de github con el local.
 - **11-Intro-SQL-con-SQLite:** primeros pasos a sql, comandos, relaciones llaves(primaty y forania) y mantiener integridad con constraints
 - **12-Consultas-Basicas-(SELECT, WHERE, ORDER BY):** Manipulando una tabla con consultas basicas con la query
-
+- **13-Joins-y-Relaciones-entre-Tablas:** Join inner,left join, probando tablas y relaciones basicas
 *(se agregarán nuevas carpetas conforme avance el programa)*
