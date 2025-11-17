@@ -10,4 +10,5 @@ Este repositorio documenta mi avance en el programa **Entrenamiento de Análisis
 - **11-Intro-SQL-con-SQLite:** primeros pasos a sql, comandos, relaciones llaves(primaty y forania) y mantiener integridad con constraints
 - **12-Consultas-Basicas-(SELECT, WHERE, ORDER BY):** Manipulando una tabla con consultas basicas con la query
 - **13-Joins-y-Relaciones-entre-Tablas:** Join inner,left join, probando tablas y relaciones basicas
+- **14-Funciones-y-Group-By:** se revisan funciones group by, having y joins
 *(se agregarán nuevas carpetas conforme avance el programa)*
