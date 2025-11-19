@@ -7,12 +7,13 @@ Este repositorio documenta mi avance en el programa **Entrenamiento de Análisis
 - **02-ssh-connection:** configuración de clave SSH y conexión local-remoto  
 - **03-branch-pullrequest:** se ve branch, y como fusionar con merge de manera local y finalmente hacer un pullrequest desde github que haria lo mismo pero remoto  
 - **04-GitHubFlow-Pullrequest:** se ven pullrequest y merge de manera local y github, ademas de hacer pull para mantener igualdad en el repositorio de github con el local.
-- **11-Intro-SQL-con-SQLite:** primeros pasos a sql, comandos, relaciones llaves(primaty y forania) y mantiener integridad con constraints
+- **11-Intro-SQL-con-SQLite:** Primeros pasos a sql, comandos, relaciones llaves(primaty y forania) y mantiener integridad con constraints
 - **12-Consultas-Basicas-(SELECT, WHERE, ORDER BY):** Manipulando una tabla con consultas basicas con la query
 - **13-Joins-y-Relaciones-entre-Tablas:** Join inner,left join, probando tablas y relaciones basicas
-- **14-Funciones-y-Group-By:** se revisan funciones group by, having y joins
-- **15-Subconsultas-EXISTS-IN-ANY-ALL:** se revisan los subconjuntos y algunos operadores para consultas anidadas.
-- **21-Python-para-Analisis-Datos(Entornos virtual y primer script)**activar entorno virtual y desactivar
-- **22-Extracción-Datos-desde-Múltiples Fuentes:** crear diferentes formatos de datos para luego leerlos.
-- **23- :** aaaa
+- **14-Funciones-y-Group-By:** Revisar funciones group by, having y joins
+- **15-Subconsultas-EXISTS-IN-ANY-ALL:** Revisar los subconjuntos y algunos operadores para consultas anidadas.
+- **21-Python-para-Analisis-Datos(Entornos virtual y primer script)** Activar entorno virtual y desactivar.
+- **22-Extracción-Datos-desde-Múltiples Fuentes:** Crear diferentes formatos de datos para luego leerlos.
+- **23-Limpieza-y-Transformación-de-Datos:** Creando data con errores y estandarizando o limpiando la data.
+
 *(se agregarán nuevas carpetas conforme avance el programa)*
