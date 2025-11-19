@@ -12,6 +12,6 @@ Este repositorio documenta mi avance en el programa **Entrenamiento de Análisis
 - **13-Joins-y-Relaciones-entre-Tablas:** Join inner,left join, probando tablas y relaciones basicas
 - **14-Funciones-y-Group-By:** se revisan funciones group by, having y joins
 - **15-Subconsultas-EXISTS-IN-ANY-ALL:** se revisan los subconjuntos y algunos operadores para consultas anidadas.
-- **21-:**
+- **21-Python-para-Analisis-Datos(Entornos virtual y primer script)**
 
 *(se agregarán nuevas carpetas conforme avance el programa)*

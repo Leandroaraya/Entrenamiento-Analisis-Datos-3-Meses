@@ -1,1 +1,44 @@
+
+# =========
+# ENTORNOS VIRTUALES
+# =========
+analisis_datos_env/
+venv/
+.env/
+*.venv/
+
+# =========
+# ARCHIVOS DE PYTHON QUE NO SE VERSIONAN
+# =========
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# =========
+# CONFIGURACIONES DE NOTEBOOKS
+# =========
+.ipynb_checkpoints/
+
+# =========
+# ARCHIVOS TEMPORALES / LOGS
+# =========
+*.log
+*.tmp
+
+# =========
+# CONFIGURACIONES DEL EDITOR
+# =========
+.vscode/
+*.code-workspace
+
+# =========
+# SISTEMA WINDOWS
+# =========
+Thumbs.db
+Desktop.ini
+
+# =========
+# BACKUPS anteiores
+# =========
 backup-actividades/
