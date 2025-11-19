@@ -15,5 +15,7 @@ Este repositorio documenta mi avance en el programa **Entrenamiento de Análisis
 - **21-Python-para-Analisis-Datos(Entornos virtual y primer script)** Activar entorno virtual y desactivar.
 - **22-Extracción-Datos-desde-Múltiples Fuentes:** Crear diferentes formatos de datos para luego leerlos.
 - **23-Limpieza-y-Transformación-de-Datos:** Creando data con errores y estandarizando o limpiando la data.
+- **24-Filtrado-Groupby-Merge-de-Datos:** Realizar groupby en tablas en python usando query() y aplicar merge a diferenteas tablas.
+- **25- :** 
 
 *(se agregarán nuevas carpetas conforme avance el programa)*
