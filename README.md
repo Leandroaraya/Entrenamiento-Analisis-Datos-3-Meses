@@ -17,5 +17,8 @@ Este repositorio documenta mi avance en el programa **Entrenamiento de Análisis
 - **23-Limpieza-y-Transformación-de-Datos:** Creando data con errores y estandarizando o limpiando la data.
 - **24-Filtrado-Groupby-Merge-de-Datos:** Realizar groupby en tablas en python usando query() y aplicar merge a diferenteas tablas.
 - **25-Manejo-Datos-Faltantes-y-Outliers :** Manejo de outliers y datos faltantes
+- **31-Conceptos-Fundamentales-ETL :** Estructura de trabajo y directrices o contexto para el trabajo con datos. 
+- **32-Extracción-Datos-(repetido act 22) :** Revisar actividad 22, se repite la actividad
+- **33-Transformación-y-Limpieza de Datos :** Revisar datos para su limpieza y desarrollo de data para incorporar datos erroneos y revisarlos.
 
 *(se agregarán nuevas carpetas conforme avance el programa)*
