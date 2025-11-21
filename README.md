@@ -20,5 +20,6 @@ Este repositorio documenta mi avance en el programa **Entrenamiento de Análisis
 - **31-Conceptos-Fundamentales-ETL :** Estructura de trabajo y directrices o contexto para el trabajo con datos. 
 - **32-Extracción-Datos-(repetido act 22) :** Revisar actividad 22, se repite la actividad
 - **33-Transformación-y-Limpieza de Datos :** Revisar datos para su limpieza y desarrollo de data para incorporar datos erroneos y revisarlos.
+- **34-Carga-de-Datos-a-Destinos:** Crear tablas con formato final, df de pruebas y entregar datos del df a las tablas realizando verificación.
 
 *(se agregarán nuevas carpetas conforme avance el programa)*

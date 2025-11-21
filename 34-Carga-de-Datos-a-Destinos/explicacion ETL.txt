@@ -1,0 +1,121 @@
+RESUMEN COMPLETO DEL PROCESO ETL (con creación del esquema)
+(Explicado de forma clara y aplicado al ejercicio que estás haciendo)
+🔵 1. Crear el esquema de la base de datos destino (ANTES del ETL)
+
+Antes de cargar cualquier dato, se crea una base de datos destino con tablas y reglas.
+Este esquema define:
+
+Qué tablas existirán
+
+Qué columnas tendrá cada tabla
+
+Qué tipos de datos se aceptan
+
+Qué relaciones existen (FK)
+
+Qué restricciones hay (NOT NULL, UNIQUE)
+
+Ejemplo del ejercicio:
+
+CREATE TABLE clientes (...);
+CREATE TABLE productos (...);
+CREATE TABLE ventas (...);
+
+
+Esto prepara un lugar estructurado y seguro donde luego vas a cargar los datos limpios.
+
+🔎 Idea clave:
+La base destino es como “el contenedor final” donde vivirán los datos limpios, validados y listos para análisis.
+
+🔵 2. Extraer datos (Extract)
+
+En esta etapa obtienes datos desde distintas fuentes:
+
+Archivos CSV, Excel, JSON
+
+APIs
+
+Bases de datos externas
+
+Sistemas internos
+
+ERP, CRM, POS, etc.
+
+En el ejercicio, tus datos vienen de DataFrames creados como ejemplo.
+
+🔵 3. Transformar datos (Transform)
+
+Aquí limpias, corriges y enriqueces los datos.
+Se hace:
+
+Validación
+
+Corrección de errores
+
+Normalización
+
+Enriquecimiento
+
+Conversión de tipos
+
+Cálculo de columnas derivadas
+
+Detectar y eliminar claves foráneas inválidas
+
+Reglas de negocio
+
+Formateo de fechas, textos, números
+
+Ejemplo del ejercicio:
+
+Validar si id_cliente existe
+
+Validar si id_producto existe
+
+Corregir ingresos negativos
+
+Arreglar edades inválidas
+
+Calcular totales
+
+Clasificar categorías
+
+Filtrar valores no permitidos
+
+🔎 Idea clave:
+La transformación deja los datos limpios, coherentes y listos para guardarse en el destino.
+
+🔵 4. Cargar al destino (Load)
+
+Una vez limpios, los datos se cargan a las tablas previamente creadas.
+Aquí ocurre:
+
+Inserción respetando las reglas del esquema
+
+Revisión de claves foráneas
+
+Evitar duplicados
+
+Asegurar integridad referencial
+
+En el ejercicio se usa:
+
+df.to_sql(tabla, conn, if_exists='append')
+
+
+🔎 Idea clave:
+El LOAD deja los datos guardados en la base destino, donde serán consumidos más adelante.
+
+🔵 ¿Qué pasa después del LOAD?
+
+Una vez los datos ya están en la base destino:
+
+✔ Se pueden usar en dashboards (Power BI, Tableau, Looker)
+✔ Se pueden usar para análisis en SQL
+✔ Se pueden usar para ML (modelos predictivos)
+✔ Quedan disponibles como “fuente confiable” (Single Source of Truth)
+✔ Servidores pueden leerlos para sistemas internos
+✔ Se puede automatizar (ETL diario o mensual)
+🔵 RESUMEN FINAL EN UNA LÍNEA
+
+ETL = preparar y limpiar datos desde distintas fuentes → y dejarlos cargados en una base de datos destino lista para análisis o consumo empresarial.
