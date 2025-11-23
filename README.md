@@ -23,5 +23,6 @@ Este repositorio documenta mi avance en el programa **Entrenamiento de Análisis
 - **34-Carga-de-Datos-a-Destinos:** Crear tablas con formato final, df de pruebas y entregar datos del df a las tablas realizando verificación.
 -**35-Manejo-de-Errores-y-Logging-en-ETL:** Manejo de errores para identificar problemas ETL en la data.
 -**41-Introducción-Análisis-Exploratorio-(EDA):** Creando una data con numeros aleatorios y luego analisis exploratorio.
+-**42-Estadística-Descriptiva-Básica:** Crear data y determinar media,moda,mediana, varianza y desviacion estandar.
 
 *(se agregarán nuevas carpetas conforme avance el programa)*
