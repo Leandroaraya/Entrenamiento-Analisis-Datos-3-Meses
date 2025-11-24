@@ -1,4 +1,4 @@
-Planta / Utility
+Planta DON GOYO
    └── Switchyard SY001
         ├── Equipos de Maniobra
         │    ├── Circuit Breakers
@@ -26,4 +26,4 @@ Planta / Utility
              ├── Meter 003
              └── Meter 004
 
-algo asi y subirlo a github se vera mejor? 
+

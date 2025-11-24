@@ -1,6 +1,6 @@
 ```mermaid
 mindmap
-  root((Planta / Utility))
+  root((Planta DON GOYO))
     Switchyard SY001
       Equipos de Maniobra
         Circuit Breakers
