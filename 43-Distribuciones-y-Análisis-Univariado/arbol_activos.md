@@ -1,20 +1,5 @@
+```mermaid
 graph TD
-
-A[DON GOYO] --> B[SY - SWITCHYARDS]
-
-%% Protección HV
-B --> C[Sistema protección HV]
-C --> C1[CIRCUIT BREAKER 001]
-C1 --> C1a[CURRENT TRANSFORMER GROUP CB001-CTG01]
-C --> C2[CIRCUIT BREAKER 002]
-C2 --> C2a[CURRENT TRANSFORMER GROUP CB002-CTG01]
-C --> C3[CIRCUIT BREAKER 003]
-C3 --> C3a[CURRENT TRANSFORMER GROUP CB003-CTG01]
-
-%% Sistema DC
-B --> D[Sistema DC]
-
-D --> D1[Sistema DC 001]graph TD
 
 A[DON GOYO] --> B[SY - SWITCHYARDS]
 
@@ -52,48 +37,7 @@ F --> F2[METER 002]
 F --> F3[METER 003]
 F --> F4[METER 004]
 
-%% PT
-B --> G[POTENTIAL TRANSFORMER]
-G --> G1[PT GROUP 03]
-G --> G2[PT GROUP 04]
-G --> G3[PT GROUP 05]
-G --> G4[PT GROUP 06]
-
-%% Surge Arresters
-B --> H[SURGE ARRESTER]
-H --> H1[SURGE ARRESTER GROUP 10]
-H --> H2[SURGE ARRESTER GROUP 11]
-H --> H3[SURGE ARRESTER GROUP 12]
-
-%% Disconnect Switch
-B --> I[Disconnect Switch]
-I --> I1[SWITCH 001]
-I --> I2[SWITCH 002]
-I --> I3[SWITCH 003]
-I --> I4[SWITCH 004]
-
-D1 --> D1a[BATTERY BANK NO. 1]
-D1 --> D1b[BATTERY CHARGER NO. 1]
-
-D --> D2[Sistema DC 002]
-D2 --> D2a[BATTERY BANK NO. 2]
-D2 --> D2b[BATTERY CHARGER NO. 2]
-
-D --> D3[Sistema DC 003]
-D3 --> D3a[BATTERY BANK NO. 3]
-D3 --> D3b[BATTERY CHARGER NO. 3]
-
-%% Backup Generator
-B --> E[BACKUP GENERATOR]
-
-%% Billing Meter
-B --> F[BILLING METER]
-F --> F1[METER 001]
-F --> F2[METER 002]
-F --> F3[METER 003]
-F --> F4[METER 004]
-
-%% PT
+%% Potential Transformer
 B --> G[POTENTIAL TRANSFORMER]
 G --> G1[PT GROUP 03]
 G --> G2[PT GROUP 04]
