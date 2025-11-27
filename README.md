@@ -27,5 +27,6 @@ Este repositorio documenta mi avance en el programa **Entrenamiento de Análisis
 -**43-Distribuciones-y-Análisis-Univariado:** Asimetria , curtosis y outliers.
 -**44-Análisis-Relaciones-y-Correlaciones:** Trabando en python correlaciones y mapeo de variables.
 -**45-EDA-Completo-y-Reporte-Ejecutivo:** Resulmen de la tematica, exploracion y correlacion, groupby y reporte final.
+-**51-Principios-Visualización-Efectiva-y-Teoría del Color:** Aplicando graficas y distribucion con colores.
 
 *(se agregarán nuevas carpetas conforme avance el programa)*
