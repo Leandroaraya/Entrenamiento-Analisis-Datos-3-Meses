@@ -25,5 +25,6 @@ Este repositorio documenta mi avance en el programa **Entrenamiento de Análisis
 -**41-Introducción-Análisis-Exploratorio-(EDA):** Creando una data con numeros aleatorios y luego analisis exploratorio.
 -**42-Estadística-Descriptiva-Básica:** Crear data y determinar media,moda,mediana, varianza y desviacion estandar.
 -**43-Distribuciones-y-Análisis-Univariado:** Asimetria , curtosis y outliers
+-**44-Análisis-Relaciones-y-Correlaciones:** Trabando en python correlaciones y mapeo de variables
 
 *(se agregarán nuevas carpetas conforme avance el programa)*
