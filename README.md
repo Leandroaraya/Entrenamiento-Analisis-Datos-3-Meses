@@ -24,7 +24,8 @@ Este repositorio documenta mi avance en el programa **Entrenamiento de Análisis
 -**35-Manejo-de-Errores-y-Logging-en-ETL:** Manejo de errores para identificar problemas ETL en la data.
 -**41-Introducción-Análisis-Exploratorio-(EDA):** Creando una data con numeros aleatorios y luego analisis exploratorio.
 -**42-Estadística-Descriptiva-Básica:** Crear data y determinar media,moda,mediana, varianza y desviacion estandar.
--**43-Distribuciones-y-Análisis-Univariado:** Asimetria , curtosis y outliers
--**44-Análisis-Relaciones-y-Correlaciones:** Trabando en python correlaciones y mapeo de variables
+-**43-Distribuciones-y-Análisis-Univariado:** Asimetria , curtosis y outliers.
+-**44-Análisis-Relaciones-y-Correlaciones:** Trabando en python correlaciones y mapeo de variables.
+-**45-EDA-Completo-y-Reporte-Ejecutivo:** Resulmen de la tematica, exploracion y correlacion, groupby y reporte final.
 
 *(se agregarán nuevas carpetas conforme avance el programa)*
