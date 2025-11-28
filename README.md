@@ -31,5 +31,7 @@ Este repositorio documenta mi avance en el programa **Entrenamiento de Análisis
 - **52-Gráficos-Básicos-con-Matplotlib-para-Análisis-Inicial:** Usando Matplotlib para visualizar datos.
 - **53-Visualizaciones-Avanzadas-y-Dashboards-Interactivos:** Visualizacion y dashboards en notebooks.
 - **54-Storytelling-con-Datos-para-Comunicar-Insights:** Trabajando insights con python.
+- **55-Herramientas-de-Visualización-Alternativas:** Comparando Seaborn vs Plotly vs Pandas Plotting.
+- **61-Probabilidad-Básica-y-Distribuciones-de-Datos:** Aplicando distribuciones y probabilidades.
 
 *(se agregarán nuevas carpetas conforme avance el programa)*
