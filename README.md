@@ -21,14 +21,15 @@ Este repositorio documenta mi avance en el programa **Entrenamiento de Análisis
 - **32-Extracción-Datos-(repetido act 22) :** Revisar actividad 22, se repite la actividad
 - **33-Transformación-y-Limpieza de Datos :** Revisar datos para su limpieza y desarrollo de data para incorporar datos erroneos y revisarlos.
 - **34-Carga-de-Datos-a-Destinos:** Crear tablas con formato final, df de pruebas y entregar datos del df a las tablas realizando verificación.
--**35-Manejo-de-Errores-y-Logging-en-ETL:** Manejo de errores para identificar problemas ETL en la data.
--**41-Introducción-Análisis-Exploratorio-(EDA):** Creando una data con numeros aleatorios y luego analisis exploratorio.
--**42-Estadística-Descriptiva-Básica:** Crear data y determinar media,moda,mediana, varianza y desviacion estandar.
--**43-Distribuciones-y-Análisis-Univariado:** Asimetria , curtosis y outliers.
--**44-Análisis-Relaciones-y-Correlaciones:** Trabando en python correlaciones y mapeo de variables.
--**45-EDA-Completo-y-Reporte-Ejecutivo:** Resulmen de la tematica, exploracion y correlacion, groupby y reporte final.
--**51-Principios-Visualización-Efectiva-y-Teoría del Color:** Aplicando graficas y distribucion con colores.
--**52-Gráficos-Básicos-con-Matplotlib-para-Análisis-Inicial:** Usando Matplotlib para visualizar datos.
--**53-Visualizaciones-Avanzadas-y-Dashboards-Interactivos:** Visualizacion y dashboards en notebooks
+- **35-Manejo-de-Errores-y-Logging-en-ETL:** Manejo de errores para identificar problemas ETL en la data.
+- **41-Introducción-Análisis-Exploratorio-(EDA):** Creando una data con numeros aleatorios y luego analisis exploratorio.
+- **42-Estadística-Descriptiva-Básica:** Crear data y determinar media,moda,mediana, varianza y desviacion estandar.
+- **43-Distribuciones-y-Análisis-Univariado:** Asimetria , curtosis y outliers.
+- **44-Análisis-Relaciones-y-Correlaciones:** Trabando en python correlaciones y mapeo de variables.
+- **45-EDA-Completo-y-Reporte-Ejecutivo:** Resulmen de la tematica, exploracion y correlacion, groupby y reporte final.
+- **51-Principios-Visualización-Efectiva-y-Teoría del Color:** Aplicando graficas y distribucion con colores.
+- **52-Gráficos-Básicos-con-Matplotlib-para-Análisis-Inicial:** Usando Matplotlib para visualizar datos.
+- **53-Visualizaciones-Avanzadas-y-Dashboards-Interactivos:** Visualizacion y dashboards en notebooks.
+- **54-Storytelling-con-Datos-para-Comunicar-Insights:** Trabajando insights con python.
 
 *(se agregarán nuevas carpetas conforme avance el programa)*
