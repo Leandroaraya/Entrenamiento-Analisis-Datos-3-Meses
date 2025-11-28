@@ -29,5 +29,6 @@ Este repositorio documenta mi avance en el programa **Entrenamiento de Análisis
 -**45-EDA-Completo-y-Reporte-Ejecutivo:** Resulmen de la tematica, exploracion y correlacion, groupby y reporte final.
 -**51-Principios-Visualización-Efectiva-y-Teoría del Color:** Aplicando graficas y distribucion con colores.
 -**52-Gráficos-Básicos-con-Matplotlib-para-Análisis-Inicial:** Usando Matplotlib para visualizar datos.
+-**53-Visualizaciones-Avanzadas-y-Dashboards-Interactivos:** Visualizacion y dashboards en notebooks
 
 *(se agregarán nuevas carpetas conforme avance el programa)*
