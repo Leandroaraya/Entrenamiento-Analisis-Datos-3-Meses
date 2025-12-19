@@ -33,5 +33,6 @@ Este repositorio documenta mi avance en el programa **Entrenamiento de Análisis
 - **54-Storytelling-con-Datos-para-Comunicar-Insights:** Trabajando insights con python.
 - **55-Herramientas-de-Visualización-Alternativas:** Comparando Seaborn vs Plotly vs Pandas Plotting.
 - **61-Probabilidad-Básica-y-Distribuciones-de-Datos:** Aplicando distribuciones y probabilidades.
+- **62-Pruebas-de-Hipótesis-y-su-Aplicación-Práctica:** "modificacion readme"
 
 *(se agregarán nuevas carpetas conforme avance el programa)*
