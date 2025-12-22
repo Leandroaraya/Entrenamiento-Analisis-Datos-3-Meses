@@ -34,5 +34,6 @@ Este repositorio documenta mi avance en el programa **Entrenamiento de Análisis
 - **55-Herramientas-de-Visualización-Alternativas:** Comparando Seaborn vs Plotly vs Pandas Plotting.
 - **61-Probabilidad-Básica-y-Distribuciones-de-Datos:** Aplicando distribuciones y probabilidades.
 - **62-Pruebas-de-Hipótesis-y-su-Aplicación-Práctica:** "Aplicando matriz de confusion y pruebas t"
+- **63-Análisis-de-Varianza-(ANOVA)-para-Comparación-de-Grupos:** Comparación de medias entre grupos usando Welch ANOVA y corrección de Bonferroni
 
 *(se agregarán nuevas carpetas conforme avance el programa)*
