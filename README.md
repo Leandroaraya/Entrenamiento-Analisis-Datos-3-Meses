@@ -35,5 +35,6 @@ Este repositorio documenta mi avance en el programa **Entrenamiento de Análisis
 - **61-Probabilidad-Básica-y-Distribuciones-de-Datos:** Aplicando distribuciones y probabilidades.
 - **62-Pruebas-de-Hipótesis-y-su-Aplicación-Práctica:** "Aplicando matriz de confusion y pruebas t"
 - **63-Análisis-de-Varianza-(ANOVA)-para-Comparación-de-Grupos:** Comparación de medias entre grupos usando Welch ANOVA y corrección de Bonferroni
+- **64-Regresión-Lineal-Simple-para-Modelado-Predictivo:** Interpretación o pesos de las variables y los residuos
 
 *(se agregarán nuevas carpetas conforme avance el programa)*
