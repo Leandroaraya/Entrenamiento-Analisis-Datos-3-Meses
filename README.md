@@ -36,5 +36,5 @@ Este repositorio documenta mi avance en el programa **Entrenamiento de Análisis
 - **62-Pruebas-de-Hipótesis-y-su-Aplicación-Práctica:** "Aplicando matriz de confusion y pruebas t"
 - **63-Análisis-de-Varianza-(ANOVA)-para-Comparación-de-Grupos:** Comparación de medias entre grupos usando Welch ANOVA y corrección de Bonferroni
 - **64-Regresión-Lineal-Simple-para-Modelado-Predictivo:** Interpretación o pesos de las variables y los residuos
-
+- **65-Estadística-No-Paramétrica-y-Pruebas-Robustas:** Aplicar pruebas no paramétricas cuando fallan los supuestos tradicionales y bootstrap
 *(se agregarán nuevas carpetas conforme avance el programa)*
