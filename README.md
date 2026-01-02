@@ -37,6 +37,6 @@ Este repositorio documenta mi avance en el programa **Entrenamiento de Análisis
 - **63-Análisis-de-Varianza-(ANOVA)-para-Comparación-de-Grupos:** Comparación de medias entre grupos usando Welch ANOVA y corrección de Bonferroni
 - **64-Regresión-Lineal-Simple-para-Modelado-Predictivo:** Interpretación o pesos de las variables y los residuos
 - **65-Estadística-No-Paramétrica-y-Pruebas-Robustas:** Aplicar pruebas no paramétricas cuando fallan los supuestos tradicionales y bootstrap
-- **71-Diseño-Avanzado-de-Esquemas-de-Bases-de-Datos:** 
+- **71-Diseño-Avanzado-de-Esquemas-de-Bases-de-Datos:** Evaluar el impacto de decisiones de diseño en la performance de análisis
 
 *(se agregarán nuevas carpetas conforme avance el programa)*
