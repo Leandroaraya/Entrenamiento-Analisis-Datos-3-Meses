@@ -39,4 +39,5 @@ Este repositorio documenta mi avance en el programa **Entrenamiento de Análisis
 - **65-Estadística-No-Paramétrica-y-Pruebas-Robustas:** Aplicar pruebas no paramétricas cuando fallan los supuestos tradicionales y bootstrap.
 - **71-Diseño-Avanzado-de-Esquemas-de-Bases-de-Datos:** Evaluar el impacto de decisiones de diseño en la performance de análisis.
 - **72-Índices-y-Estrategias-de-Optimización-de-Consultas:** Seleccionar índices apropiados e Implementar estrategias de particionamiento.
+- **73-Manejo-de-Grandes-Volúmenes-de-Datos-(BigDataBasics):** Fundamentos de procesamiento y escalabilidad de gran volúmen datos en sistemas distribuidos.
 *(se agregarán nuevas carpetas conforme avance el programa)*
