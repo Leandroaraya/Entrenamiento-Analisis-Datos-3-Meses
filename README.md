@@ -40,4 +40,6 @@ Este repositorio documenta mi avance en el programa **Entrenamiento de Análisis
 - **71-Diseño-Avanzado-de-Esquemas-de-Bases-de-Datos:** Evaluar el impacto de decisiones de diseño en la performance de análisis.
 - **72-Índices-y-Estrategias-de-Optimización-de-Consultas:** Seleccionar índices apropiados e Implementar estrategias de particionamiento.
 - **73-Manejo-de-Grandes-Volúmenes-de-Datos-(BigDataBasics):** Fundamentos de procesamiento y escalabilidad de gran volúmen datos en sistemas distribuidos.
+- **74-Arquitecturas-NoSQL-vs-SQL-para-Diferentes-Casos-de-Uso:** Estructurando datos SQL y NoSQL
+- **75-Diseño-e-Implementación-de-Base-de-Datos-Analítica:** Modelado de un data warehouse para e-commerce, identificando dimensiones y tablas, etc.
 *(se agregarán nuevas carpetas conforme avance el programa)*
