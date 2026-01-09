@@ -42,4 +42,6 @@ Este repositorio documenta mi avance en el programa **Entrenamiento de Análisis
 - **73-Manejo-de-Grandes-Volúmenes-de-Datos-(BigDataBasics):** Fundamentos de procesamiento y escalabilidad de gran volúmen datos en sistemas distribuidos.
 - **74-Arquitecturas-NoSQL-vs-SQL-para-Diferentes-Casos-de-Uso:** Estructurando datos SQL y NoSQL
 - **75-Diseño-e-Implementación-de-Base-de-Datos-Analítica:** Modelado de un data warehouse para e-commerce, identificando dimensiones y tablas, etc.
+- **81-Extracción-de-Datos-con-Python:** Crear db, consumir api y leer un csv en python.
+
 *(se agregarán nuevas carpetas conforme avance el programa)*
