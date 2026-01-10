@@ -44,6 +44,7 @@ Este repositorio documenta mi avance en el programa **Entrenamiento de Análisis
 - **75-Diseño-e-Implementación-de-Base-de-Datos-Analítica:** Modelado de un data warehouse para e-commerce, identificando dimensiones y tablas, etc.
 - **81-Extracción-de-Datos-con-Python:** Crear db, consumir api y leer un csv en python.
 - **82-Transformaciones-Básicas-con-Pandas:** Limpieza y normalizacion de datos en python.
+- **83-Transformaciones-Avanzadas-y-Enriquecimiento:** Creando tablas para aplicar Joins.
  
 
 *(se agregarán nuevas carpetas conforme avance el programa)*
