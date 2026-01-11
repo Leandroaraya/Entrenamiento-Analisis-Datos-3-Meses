@@ -45,6 +45,7 @@ Este repositorio documenta mi avance en el programa **Entrenamiento de Análisis
 - **81-Extracción-de-Datos-con-Python:** Crear db, consumir api y leer un csv en python.
 - **82-Transformaciones-Básicas-con-Pandas:** Limpieza y normalizacion de datos en python.
 - **83-Transformaciones-Avanzadas-y-Enriquecimiento:** Creando tablas para aplicar Joins.
+- **84-Carga-de-Datos-y-Estrategias-de-Destino:** Conectar a bases de datos y tipos de carga de datos en python.
  
 
 *(se agregarán nuevas carpetas conforme avance el programa)*
