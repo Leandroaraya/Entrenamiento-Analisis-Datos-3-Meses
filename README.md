@@ -46,6 +46,7 @@ Este repositorio documenta mi avance en el programa **Entrenamiento de Análisis
 - **82-Transformaciones-Básicas-con-Pandas:** Limpieza y normalizacion de datos en python.
 - **83-Transformaciones-Avanzadas-y-Enriquecimiento:** Creando tablas para aplicar Joins.
 - **84-Carga-de-Datos-y-Estrategias-de-Destino:** Conectar a bases de datos y tipos de carga de datos en python.
+- **85-Manejo-de-Errores-y-Logging-en-ETL:** Introducienxo pipeline y logging.
  
 
 *(se agregarán nuevas carpetas conforme avance el programa)*
