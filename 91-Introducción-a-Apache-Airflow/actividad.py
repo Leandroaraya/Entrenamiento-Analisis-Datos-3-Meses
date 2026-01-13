@@ -1,0 +1,1 @@
+#se trabajo sobre la terminal. instalacion de apache airflow y la recomendacion de trabajar sobre un entorno virtual

@@ -42,3 +42,13 @@ Desktop.ini
 # BACKUPS anteiores
 # =========
 backup-actividades/
+
+
+
+# Airflow
+airflow.db
+logs/
+webserver_config.py
+
+# Entorno virtual de Airflow
+airflow_env/
