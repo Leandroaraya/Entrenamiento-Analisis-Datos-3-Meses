@@ -48,5 +48,6 @@ Este repositorio documenta mi avance en el programa **Entrenamiento de Análisis
 - **84-Carga-de-Datos-y-Estrategias-de-Destino:** Conectar a bases de datos y tipos de carga de datos en python.
 - **85-Manejo-de-Errores-y-Logging-en-ETL:** Introducienxo pipeline y logging.
 - **91-Introducción-a-Apache-Airflow:** Apache Airflow y concepto de DAGs.
+- **92-DAGs-y-Dependencias:** Aplicando DAGs y su estructura.
 
 *(se agregarán nuevas carpetas conforme avance el programa)*
