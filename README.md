@@ -49,5 +49,7 @@ Este repositorio documenta mi avance en el programa **Entrenamiento de Análisis
 - **85-Manejo-de-Errores-y-Logging-en-ETL:** Introducienxo pipeline y logging.
 - **91-Introducción-a-Apache-Airflow:** Apache Airflow y concepto de DAGs.
 - **92-DAGs-y-Dependencias:** Aplicando DAGs y su estructura.
+- **93-Operadores-y-Sensores:** Funciones de DAGs, comunicación de estados y sensores.
+
 
 *(se agregarán nuevas carpetas conforme avance el programa)*
