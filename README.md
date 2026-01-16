@@ -50,6 +50,7 @@ Este repositorio documenta mi avance en el programa **Entrenamiento de Análisis
 - **91-Introducción-a-Apache-Airflow:** Apache Airflow y concepto de DAGs.
 - **92-DAGs-y-Dependencias:** Aplicando DAGs y su estructura.
 - **93-Operadores-y-Sensores:** Funciones de DAGs, comunicación de estados y sensores.
+- **94-Monitoreo-y-Alertas:** Monitorear, callbacks y alertas como herramientas de estados.
 
 
 *(se agregarán nuevas carpetas conforme avance el programa)*
