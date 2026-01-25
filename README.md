@@ -54,5 +54,6 @@ Este repositorio documenta mi avance en el programa **Entrenamiento de Análisis
 - **95-Pipelines-Complejos-y-Best-Practice:** Buenas practicas, estructura y estrategias de escalado.
 - **101-Diseño-de-Arquitectura-Completa:** Arquitectura basica y escalabilidad.
 - **102-Implementación-de-Pipeline-End-to-End:** Pipelines y sus respectivas fallas.
+- **103-Validación-y-Testing:** Testing de pipelines e integración.
 
 *(se agregarán nuevas carpetas conforme avance el programa)*
