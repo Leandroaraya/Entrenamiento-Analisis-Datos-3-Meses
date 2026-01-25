@@ -1,0 +1,88 @@
+[33m530d896[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m modificando nombres carpetas
+[33m7b7b1cd[m act 4 sem 11 - testing pipelines y monitoreo
+[33m8d90c06[m act 3 sem 11 - testing pipelines e identificacion de errores
+[33m7f814f6[m act 2 sem 11-pipelines
+[33m7000524[m act 1 sem 11 - Arquitectura
+[33m9af51d4[m act 5 sem 10 - aplicando buenas practicas y estructura de trabajo
+[33mb460a85[m act 4 sem 10 - forma de monitorear y elaborar alertas
+[33maac05de[m act 3 sem 10 - comunicación por medio de DAGs
+[33mbc61529[m Aplicando DAGs y como es en codigo
+[33mf61695b[m act 1 sem 10 apache airflow con DAGs
+[33m529f637[m act 5 sem 9 Pipelines.
+[33m9e096e4[m act 4 sem 9 conectar db a python para cargar datos.
+[33m06e77ff[m act 3 sem 9 tablas y joins en datos
+[33mba144c9[m act 2 sem 9 limpieza y normalización de datos
+[33m1f39b04[m act1 sem9 revisar en python db, api y csv
+[33m44edea6[m act 5 sem 8 - modelando data y vistas analiticas
+[33mda6729f[m act 4 sem8 arquitectura NoSQL y SQL
+[33m21d57b1[m act 3 sem 8 procesamiento y escalabilidad big data
+[33m5dcf26a[m nota profundizar mas en sql y postgresql
+[33mebee82a[m indices y estrategias de particionamiento
+[33mdf7f0e4[m act 1 sem 8 diseño de tablas para consultas efectivas en sql
+[33ma393d88[m iniciando act 1 sem 8
+[33m49edcdb[m act 5 sem7 pruebas no parametricas y bootstrap
+[33ma1bc9dc[m regresion lineal y pesos de variables usando ols, analisis de residuos
+[33m45e3f21[m act 3 sem 7 ANOVA , Las pruebas post-hoc (como Tukey HSD) y Las correcciones por comparaciones múltiples (como Bonferroni)
+[33mb518269[m act 2 sem 7 finalizada
+[33m606fa2a[m readme
+[33m07e936a[m continuando con la actividad
+[33me9bb5dc[m actualizacion readme
+[33m04f7895[m documentacion acti 2 sema 7
+[33mab2b430[m act 1 sem7 distribucion y probabilidad
+[33m8f5ca53[m act 5 sem 6 Seaborn vs Plotly vs Pandas Plotting
+[33mdba439a[m act 4 sem 6 cominucarinsights
+[33m2b6a74d[m act 3 sem 6 dashboards y visualizacion
+[33mf19de70[m act 2 sem 6 usando matplotlib
+[33mb465c8f[m act 1 sem 6: incorporando colorea para vizualizacion.
+[33m23174eb[m act 5 semana 5,EDA y reporte
+[33m4313825[m act 4 sem5, correlaciones de variables
+[33mad95829[m probando archivo4.md
+[33m58980b8[m probando archivo3.md
+[33me69a2d6[m probando archivo2.md
+[33m78f6118[m probando archivo1.md
+[33m450fc63[m probando archivo.md
+[33md097049[m act 3 sem 5 asimetria,curtosis,outliers
+[33m2ef2bf2[m act2 sem4 indicadores de tendencia central y distribucion
+[33mbd76882[m Act1 sem4 analisis exploratorio
+[33m290d6b3[m act 5 sem 4 manejo de errores y logging
+[33mc557258[m Act 4 sem 4 alimentar tablas con dataframe con pasos del EDT + verificacion
+[33m53b015f[m Act 3 sem4 limpieza de datos y readme
+[33mdf9ce55[m act 1 sem 3 estructura de trabajo
+[33m90e163e[m readme act5 sem3 outliers
+[33m78cbc6c[m act 4 sem 3 groupby y merge
+[33m1ae56a0[m act 3 sem 3 limpieza de datos
+[33mffc5517[m act 2 sem 3 crear y leer datos en python
+[33m2eff148[m actividad 1 semana 3:EVirtualy python
+[33m299d39d[m modificando readme
+[33m606bc4c[m actividad 5 semana 2, subconsulta y IN-EXISTS-ALL
+[33mf1ed3dd[m readme cambios
+[33mc7ecbc6[m cambio practio.txt
+[33m8cdb1d7[m Actividad 4 semana 2 y modif readme
+[33m113fe97[m actualizando readme actividad 3 semana 2
+[33m47e8313[m actividad 3 semana 2
+[33m913e735[m modificando practico.txt
+[33ma88e09b[m Actividad 2 semana 2- como trabajar db
+[33m5b3cfc4[m subiendo Actividad 2 semana 2
+[33ma7fd3e9[m añadiendo foto VS code
+[33m0b12cbb[m actualizando Readme
+[33m887f62c[m Añadiendo actividad semana 2 dia 1
+[33mb5b0848[m añadir descripcion de actividad 04
+[33m96e00c6[m Merge pull request #2 from Leandroaraya/feature/dashboard-ventas-v1
+[33m0dd562c[m[33m ([m[1;31morigin/feature/dashboard-ventas-v1[m[33m)[m feat: Agregar visualización básica de ventas
+[33m8b2ed3f[m actualizacion readme
+[33m743b67e[m añadiendo encabezado actividad 2da parte
+[33m1bfc3ff[m añadiendo actividad 3
+[33m28b5824[m Merge pull request #1 from Leandroaraya/feature1
+[33m41f8a92[m[33m ([m[1;31morigin/feature1[m[33m)[m añadiendo archivo random para probar errores de merge en github
+[33md5ceff7[m añadiendos comandos de la actividad
+[33mff8918e[m añadiendo texto para comandos de la actividad
+[33mf1a1e36[m añadiendo texto
+[33m21723b7[m cambios en el readme para eliminar error en el merge
+[33m295e4ae[m Merge: Resolver conflicto entre análisis de ventas y datos
+[33m6ebb59a[m feat: Agregar análisis de datos principal
+[33m41db99c[m feat: Agregar sección de análisis de ventas
+[33m8c9d1b6[m añadiendo explicacion al .txt
+[33m94afda0[m modificacion de repo 01
+[33mcfb6518[m comentarios reestructuracion del archivo .txt
+[33m85e606d[m añadiendo .gitignore para omitir la carpeta backup-actividades
+[33mf50ea89[m Agregar actividades como submodules
