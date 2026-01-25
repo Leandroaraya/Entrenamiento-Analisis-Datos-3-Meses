@@ -55,5 +55,5 @@ Este repositorio documenta mi avance en el programa **Entrenamiento de Análisis
 - **96-Diseño-de-Arquitectura-Completa:** Arquitectura basica y escalabilidad.
 - **97-Implementación-de-Pipeline-End-to-End:** Pipelines y sus respectivas fallas.
 - **98-Validación-y-Testing:** Testing de pipelines e integración.
-
+- **99-Optimización-y-Performance:** Testing y monitoreo de pipelines.
 *(se agregarán nuevas carpetas conforme avance el programa)*
