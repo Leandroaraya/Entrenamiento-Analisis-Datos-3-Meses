@@ -52,6 +52,7 @@ Este repositorio documenta mi avance en el programa **Entrenamiento de Análisis
 - **93-Operadores-y-Sensores:** Funciones de DAGs, comunicación de estados y sensores.
 - **94-Monitoreo-y-Alertas:** Monitorear, callbacks y alertas como herramientas de estados.
 - **95-Pipelines-Complejos-y-Best-Practice:** Buenas practicas, estructura y estrategias de escalado.
+- **101-Diseño-de-Arquitectura-Completa:** Arquitectura basica y escalabilidad.
 
 
 *(se agregarán nuevas carpetas conforme avance el programa)*
