@@ -57,5 +57,6 @@ Este repositorio documenta mi avance en el programa **Entrenamiento de Análisis
 - **98-Validación-y-Testing:** Testing de pipelines e integración.
 - **99-Optimización-y-Performance:** Testing y monitoreo de pipelines.
 - **991-Estrategias-de-Despliegue (CI-CD):** Despliegue y test automaticos.
+- **992-Monitoreo-y-Observabilidad:** Monitoreo y alerta en Dashboard.
 
 *(se agregarán nuevas carpetas conforme avance el programa)*
